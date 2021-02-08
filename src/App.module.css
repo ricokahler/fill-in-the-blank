@@ -1,0 +1,28 @@
+.header {
+  padding: 1rem;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.16);
+  font-weight: bold;
+  position: sticky;
+  background-color: white;
+  top: 0;
+}
+
+.headerLink {
+  color: black;
+  text-decoration: none;
+}
+
+.headerLink:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 1rem;
+  overflow: auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 425px;
+}

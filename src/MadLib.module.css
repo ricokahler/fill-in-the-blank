@@ -1,0 +1,68 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.img {
+  margin-bottom: 1rem;
+}
+
+.placeholder {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 0.5rem;
+  width: 300px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.input:focus {
+  border-bottom: 3px solid black;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button {
+  appearance: none;
+  outline: none;
+  background: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  width: 100%;
+  cursor: pointer;
+  transition: all 250ms;
+  display: block;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #eee;
+}
+
+.button:active {
+  background-color: #ddd;
+}
+
+.blockContent > p {
+  margin-bottom: 1rem;
+}
